@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFrames, Tables, and Lists</title>
+</head>
+<body>
+    <h1>IFrames, Tables, and Lists</h1>
+
+    <!-- this is a IFrame tag, which allows web developers to include web content
+        from other websites into their own website. src is the location of the web 
+        content to include width and height define the size of the iframe. frameborder take a 
+        value of 0 (off) and 1 (on) to turn off or on the border around the Iframe-->
+    <iframe src="https://en.wikipedia.org" width="50%" height="600px" frameborder="0" title="this is an Iframe that displays the english home page for wikipedia"></iframe>
+    <br />
+    <a href="https://youtu.be/m80E1K75vDI"> click this link to view the 4 hours og relaxing youtube video featured below on youtube</a>
+    <br />
+    <iframe src="https://www.youtube.com/embed/m80E1K75vDI" width="50%" height="300px" frameborder="0" title="youtube video that shows show 4 hours of relaxing music"></iframe>
+    
+    <!--this is a HTML table
+    
+        it starts with the table tag
+    -->
+    <table>
+        <!--
+            inside the table tag, you create table rows with the tr tag.
+        -->
+        <tr>
+            <!--
+                inside the very first table row should be your table heading (th tags).
+
+                &nbsp: is an entity. Entities are used to display special characters on a website. 
+                entities can use name, such as &nbsp; or numbers, such as &#169: (the copy right symbol)
+            -->
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teacher Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Course taught&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Schools They Teach From</th>
+        </tr>
+        <!--
+            then you create as many table rows of data as you wish
+        -->
+        <tr>
+            <!--
+                inside ach table row after the heading, you add table data (td tag) to the row
+            -->
+            <td>Mr. Hardman</td>
+            <td>Web deveopment</td>
+            <td>PTEC</td>
+        </tr>
+        <tr>
+            <td>Mr. Peers</td>
+            <td>ELA</td>
+            <td>PTEC</td>
+        </tr>
+        <tr>
+            <td>Mr. Zielke</td>
+            <td>ELA</td>
+            <td>Shaftesbury</td>
+        </tr>
+    </table>
+    <!--unorered list-->
+    <ul type="square" start="3" reversed>
+        <li>coffee</li>
+        <li>tea</li>
+        <ul type="disk">
+            <li><b>wow </b>Green tea</li>
+            <li>peppermint tea</li>
+            <li>herbal tea</li>
+            <li>iced tea</li>
+            <li>orange pekoe tea</li>
+        </ul>
+        <li>milk</li>
+    </ul>
+
+    <!-- order list-->
+    <ol type="I" start="10" reversed>
+        <li>one</li>
+        <li>two</li>
+        <li>wows</li>
+        <li>hi</li>
+    </ol>
+
+    <!--description list-->
+    <dl>
+        <dt>thing 1</dt>
+        <dd>-about thing 1</dd>
+
+        <dt>thing 2</dt>
+        <dd>about thing 2</dd>
+    </dl>
+    <br />
+    <br />
+    <a href="index.html">Home Page</a>
+    <br />
+    <br />
+    <a href="heading-and-paragraphs.html">Headings and Paragraphs</a>
+    <br />
+    <br />
+    <a href="links-and-images.html">Links and Images page</a>
+    <p>&#169; Jordyn Lavallee</p>
+</body>
+</html>
